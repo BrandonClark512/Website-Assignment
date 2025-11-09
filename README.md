@@ -1,1 +1,0 @@
-This is my first ever project using HTML and CSS, I completed this assignment within 4 weeks and I used W3Schools and some ChatGPT to assist me in learning the basics. I am excited to progress further into coding and web design!
