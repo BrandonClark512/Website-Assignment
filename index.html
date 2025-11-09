@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brandon's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>Brandon's Portfolio</h1>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#" class="header-btn">View Project</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Tools &#9662;</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="https://github.com/BrandonClark512" target="_blank">GitHub</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Hi, I'm Brandon Clark</h2>
+      <p>Thank you for visiting my portfolio. I'm an aspiring web developer.</p>
+      <a href="#" class="btn">See My Projects</a>
+    </div>
+    <div class="hero-image">
+      <img src="images/nebula.jpg" alt="Hero Image">
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <section class="featured-project">
+      <div>
+        <h3>Featured Project</h3>
+        <p>This is a short description of one of my favourite projects...</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+      <img src="images/project.jpg" alt="Featured Project Image">
+    </section>
+
+    <section class="about">
+      <h3>About Me</h3>
+      <p>I'm currently studying Access to HE: Computing...</p>
+      <img src="images/profile.jpg" alt="Profile Picture" width="150">
+      <p>"My mission is to contribute to cutting edge research and the advancement of computing."</p>
+    </section>
+
+    <section class="tools">
+      <h3>Tools I Use</h3>
+      <ul>
+        <li><a href="#" class="btn">HTML</a></li>
+        <li><a href="#" class="btn">CSS</a></li>
+        <li><a href="https://github.com/BrandonClark512" class="btn" target="_blank">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>Thank you for viewing my portfolio</p>
+    <ul>
+      <li><a href="#">Email me</a></li>
+      <li><a href="https://github.com/BrandonClark512" target="_blank">GitHub</a></li>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">Other</a></li>
+    </ul>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('nav ul');
+      menu.classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>
